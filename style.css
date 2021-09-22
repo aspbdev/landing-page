@@ -11,12 +11,11 @@
 
 header {
     width: 100%;
-    padding: 24px;
     background-color: #1F2937;
 }
 
 header .container {
-    height: 2.5rem;
+    padding: 24px;
     display: flex;
     justify-content: space-between;
     align-items: center;
