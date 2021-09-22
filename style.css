@@ -15,7 +15,7 @@ header {
 }
 
 header .container {
-    padding: 24px;
+    padding: 24px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -35,4 +35,50 @@ header .container {
 .nav-item {
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero {
+    width: 100%;
+    background-color: #1F2937;
+}
+
+.hero .container {
+    padding: 64px 0;
+    display: flex;
+    gap: 24px;
+}
+
+.hero-description {
+    flex: 1;
+}
+
+.description-image {
+    width: 50%;
+    height: 300px;
+    flex: 1.5;
+    background-color: #E5E7EB;
+}
+
+.description-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    margin-bottom: 18px;
+}
+
+.description-details {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin-bottom: 18px;
+}
+
+.description-action-btn {
+    padding: 10px 24px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    color: #E5E7EB;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 5px;
 }
