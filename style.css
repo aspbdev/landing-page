@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    padding: 24px;
+    background-color: #1F2937;
+}
+
+header .container {
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.header-nav {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+}
+
+.nav-item {
+    font-size: 18px;
+    color: #E5E7EB;
+}
