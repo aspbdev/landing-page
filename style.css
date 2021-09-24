@@ -165,10 +165,6 @@ header .container {
     border-radius: 10px;
 }
 
-.action-description {
-
-}
-
 .action-description h4 {
     font-size: 18px;
     font-weight: 900;
@@ -190,4 +186,19 @@ header .container {
     color: #F9FAF8;
     font-size: 18px;
     font-weight: 900;
+}
+
+footer {
+    background-color: #1F2937;
+}
+
+footer .container {
+    padding: 48px 0;
+}
+
+footer p {
+    font-size: 14px;
+    font-weight: normal;
+    color: #E5E7EB;
+    text-align: center;
 }
