@@ -45,7 +45,7 @@ header .container {
 .hero .container {
     padding: 64px 0;
     display: flex;
-    gap: 24px;
+    gap: 48px;
 }
 
 .hero-description {
@@ -53,10 +53,10 @@ header .container {
 }
 
 .description-image {
-    width: 50%;
     height: 300px;
-    flex: 1.5;
+    flex: 1;
     background-color: #E5E7EB;
+    object-fit: cover;
 }
 
 .description-title {
